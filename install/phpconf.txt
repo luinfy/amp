@@ -1,0 +1,22 @@
+<IfModule env_module>
+    #SetEnv MIBDIRS "{php_dir}extras/mibs"
+    SetEnv MYSQL_HOME "{mysql_dir}bin"
+    #SetEnv OPENSSL_CONF "{apache_dir}bin/openssl.cnf"
+    SetEnv PHP_PEAR_SYSCONF_DIR "{php_dir}"
+    SetEnv PHPRC "{php_dir}"
+    #SetEnv TMP "{temp}"
+</IfModule>
+<FilesMatch "\.php$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+<FilesMatch "\.phps$">
+    SetHandler application/x-httpd-php-source
+</FilesMatch>
+<IfModule php5_module>
+    PHPINIDir "{php_dir}"
+</IfModule>
+<Directory "{php_dir}cgi-bin">
+    <FilesMatch "\.py|.cgi|.pl$">
+        SetHandler cgi-script
+    </FilesMatch>
+</Directory>

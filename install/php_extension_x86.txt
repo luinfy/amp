@@ -1,0 +1,3 @@
+php53_mongo=php_mongo-1.4.3-5.3-vc9.dll
+php54_mongo=php_mongo-1.4.3-5.4-vc9.dll
+php55_mongo=php_mongo-1.4.3-5.5-vc11.dll
