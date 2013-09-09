@@ -1,3 +1,15 @@
+Build : 2013090802
+
+修复Apache2.2配置文件中ServerRoot路径错误....
+
+修复Apache2.2启动PHP5.3.27问题...
+php5.3-x64-fix-php_intl.dll替换为PHP5.3.27/ext目录下的php_intl.dll
+
+
+Build : 2013090801
+
 修复了PHP5.3.27x64和PHP5.4.19x64PostgreSQL扩展问题.......
 
-复制对应版本的libpq.dll到PHP目录即可加载pgsql扩展.......
+php5.3-x64-fix-libpq.dll替换为PHP5.3.27目录下的libpq.dll
+
+php5.4-x64-fix-libpq.dll替换为PHP5.4.19目录下的libpq.dll

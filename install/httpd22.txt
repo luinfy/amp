@@ -1,4 +1,4 @@
-ServerRoot "c:/Apache24"==ServerRoot "{apache_dir}"
+ServerRoot "c:/Apache2"==ServerRoot "{apache_dir}"
 #LoadModule rewrite_module modules/mod_rewrite.so==LoadModule rewrite_module modules/mod_rewrite.so
 ServerAdmin admin@example.com==ServerAdmin postmaster@localhost
 #ServerName www.example.com:80==ServerName localhost:80

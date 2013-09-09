@@ -1,2 +1,4 @@
 EXTx64=php5.3-x64-fix-libpq.dll
 EXTx64=php5.4-x64-fix-libpq.dll
+EXTx64=php5.3-x64-fix-php_intl.dll
+CONF=httpd22.txt
